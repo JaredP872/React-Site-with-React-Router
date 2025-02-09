@@ -1,0 +1,31 @@
+nav {
+  background: #333;
+  padding: 15px;
+  width: 100%;
+  position: fixed; /* Keep it at the top */
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center; /* Center the navigation */
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid yellow;
+}
